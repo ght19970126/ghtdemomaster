@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://127.0.0.1:8020/php/index.html?__hbt=1528444120172 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>cookie</title>
+</head>
+<body>
+	
+
+<script type="text/javascript">
+	function setCookie(name,vaule,day){
+		var myDate=new Date();
+	    var ms=myDate.getTime();
+	    var msday=ms+day*24*3600*1000;
+	    myDate.setTime(msday);
+	    var data=encodeURI(vaule);
+	    document.cookie=name+"="+data+"; exprise="+myDate.toGMTString();
+	}
+	
+</script>
+</body></html>

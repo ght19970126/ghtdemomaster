@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>我的个人主页</title>
+    <script type="text/javascript" src="js/code.js"></script>
+<!-- 	<script type="text/javascript" src="js/time.js"></script>
+ -->	<style>
+	body,ul,li,p,h5,img,a,h4{
+		padding: 0px;margin: 0px;
+	}
+	body{
+		background: #099;
+		font: 12px/1.5em;
+	}
+	.banner img{
+			vertical-align: top;
+		}
+		.links{
+			overflow: hidden;
+			background: #3cf;
+		}
+		.links ul{
+			list-style: none;
+		}
+		.links ul li{
+			float: right;
+			text-align: center;
+			width:70px;
+		}
+		.links li a{
+			display: block;
+			text-decoration: none;
+			padding: 0px 2px;
+		}
+		.links li a:hover{
+			background: #063;
+			color: #fff;
+			text-decoration: none;	
+		}
+	    .leftbanner{
+		background: #fff;
+		position: fixed;
+		left:0px;
+		top: 150px;
+    	}
+	    .rightbanner{
+		background: #fff;
+		position: fixed;
+		right:0px;
+		top: 150px;
+    	}
+		.container{
+			overflow: hidden;
+			background: #fff;
+			width: 760px;
+			margin: 0px auto;
+/*			border: 1px dashed #fff;
+*/		}
+		.leftbar{
+			float: left;
+			width: 200px;
+		}
+		#nav{
+		text-align: center;
+    	height: 130px;
+   		width: 220px;	
+    	}
+   	#nav div{
+    	text-align: left;
+    	background: #fff;
+    	color: #33c;
+    	width: 200px;
+    	height: 120px;
+    	display: none;
+    	margin-left: 10px;
+    	}
+    .active{
+    	background: #f00;
+    	color: #fff;
+    	}
+		.div1{
+			background:url(img/mypic_bg.gif);
+		}
+		.container .leftbar .div1 .contentp1{
+			text-align: center;
+			border:1px dotted #000;
+			margin: 5px 5px 2px;
+			text-align: center;
+			padding-top: 10px;
+
+		}
+		.contentp2{
+			border-top: 1px dashed #666;
+			border-bottom: 1px dashed #666;
+			margin: 4px 5px;
+			text-align: center;
+		}
+		.huodong,.wode,.guanyu,.haoyou{
+			background:url(img/leftbg.jpg);
+			padding: 2px;
+		}
+		.leftbar ul{
+			overflow: hidden;
+			list-style: none;
+		}
+		.div2{
+			overflow: hidden;
+		}
+		.leftbar ul .tubiao1{
+			list-style: url(img/1.gif);
+			margin-left: 26px;
+		}
+		.leftbar ul .tubiao2{
+			list-style: url(img/2.gif);
+			margin-left: 26px;
+		}
+		.leftbar ul .tubiao3{
+			list-style: url(img/3.gif);
+			margin-left: 26px;
+		}
+		.leftbar ul .tubiao4{
+			list-style: url(img/4.gif);
+			margin-left: 26px;
+		}
+		.leftbar ul .tubiao5{
+			list-style: url(img/5.gif);
+			margin-left: 26px;
+		}
+		.leftbar ul .tubiao6{
+			list-style: url(img/6.gif);
+			margin-left: 26px;
+		}
+		.leftbar .ul1 li{
+			float: left;
+			text-align: center;
+			width: 74px;
+		}
+		.leftbar .ul1 li a{
+			display: block;
+		text-decoration: none;
+		}
+		.leftbar .ul1 li a:hover{
+			background: #09f;
+			color: #fff;
+		}
+		.div3{
+			overflow: hidden;
+		}
+		.tubiao7{
+			list-style: url(img/icon1.gif);
+			margin-left: 15px;
+		}
+		.ul2 a{
+			text-decoration: none;
+		}
+		.ul2 li{
+			border-bottom:1px dashed #666;
+		}
+		.leftbar .ul2 li a:hover{
+			background: #09f;
+			color: #fff;
+		}
+		.content{
+			float: left;
+		    width: 460px;
+		    margin: 20px;
+		    padding-left: 25px;
+		}
+		.contenta{
+			text-decoration: none;
+		}
+	    .container .diary h4{
+			border-bottom: 1px dotted #000;
+		}
+		.contentp{
+			text-align: right;
+		}
+
+		.footer{
+			float: left;
+			width: 760px;
+			background: #a7b3a6;
+			text-align: center;
+		}		
+        #imgimg{  
+            overflow: hidden;
+			   cursor:pointer;
+	    }
+        #imgimg{
+      	transform:scale(1,1);
+        }
+        #imgimg{
+      	transition:transform 0.2s ease-in 0s;
+        }
+        #imgimg:hover{
+      	transform: scale(2,2);
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="banner"><img id="imgimg" src="img/banner11.jpg"/></div>
+	<div class="links"><ul>
+	    <li><a href="liuyan.html">给我留言</a></li>
+		<li><a href="xiaoqiuyidong.html">我的作品</a></li>
+    	<li><a href="mingyan.html">励志名言</a></li>
+	    <li><a href="xiangce.html">我的相册</a></li>
+    	<li><a href="xinqingriji.html">个人感慨</a></li>
+	    <li><a href="index.html">个人首页</a></li></ul>
+	</div>
+	<div class="leftbar">
+		<div class="div1">
+			<p class="contentp1"><img id="imgimg" src="img/mypic1.jpg"/></p>
+			<p class="contentp2">郭海涛的个人主页</p>
+		</div>
+		
+		<div id="nav">
+    	<input class="active" type="button" value="个人信息">
+    	<input type="button" value="我在学校">
+    	<input type="button" value="我的爱好">
+    	<div style="display: block;"><p>姓名：郭海涛</p><p>性别：男</p><p>出生年月：1997-01-26</p><p>籍贯：河北沧州</p><p>政治面貌：团员</p></div>
+     	<div><p>学校：河北科技师范学院</p><p>学院：教育学院</p><p>专业：计算机多媒体技术</p><p>班级：1502</p><p>学号：1922150225</p></div>
+    	<div><p>体育运动：乒乓球</p><p>休闲爱好：听歌、读书</p><p>一般爱好：赖床</p><p>普通爱好：兜风</p><p>最喜爱的：吃吃吃</p></div>
+        </div>
+        <br>
+ <div class="div2">
+			<h5 class="huodong">&nbsp;&nbsp;活动地带</h5>
+			<ul class="ul1">
+				<li class="tubiao1"><a href="index.html">个人首页</a></li>
+				<li class="tubiao2"><a href="xinqingriji.html">个人感慨</a></li>
+				<li class="tubiao3"><a href="xiangce.html">我的相册</a></li>
+				<li class="tubiao4"><a href="mingyan.html">励志名言</a></li>
+				<li class="tubiao6"><a href="xiaoqiuyidong.html">我的作品</a></li>
+				<li class="tubiao5"><a href="liuyan.html">给我留言</a></li>
+			</ul>
+		</div>
+		<br>
+		<div class="div4">
+			<h5 class="guanyu">关于我爱的WWE</h5>
+			<ul class="ul2">
+				<li class="tubiao7"><a href="shuaijiaojianjie.html">摔角简介</a></li>
+				<li class="tubiao7"><a href="shuaijiaoshoujieshao.html">摔角手介绍</a></li>
+				<li class="tubiao7"><a href="xinwen.html">摔角新闻</a></li>
+				<li class="tubiao7"><a href="zixun.html">摔角资讯</a></li>
+			</ul>
+		</div>
+ 	</div>
+	<div class="content">
+       <div class="diary">
+       	<h4 class="biaoti"><a href="xinqingriji.html" class="contenta">个人感慨</a></h4>
+       	<p class="contentp"> @ 2017-12-20 16:54:07</p><br>
+       	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二零一五年秋，走入校就业，感谢乐乐姐@连乐乐部长 晓荣姐@部长衡晓荣。 的赏识，大一一年，有佳伟学长@商佳伟 的带领，最感动张晨曦@张哈哈 尹晓雯@16教技尹晓雯 张澄澄@智障张澄澄 大二一年，感谢N多人让我留在校就业，感<a href="xinqingriji.html" class="contenta">查看更多</a>
+       	<!-- 璐璐姐@秘书部 张璐璐 张瑜姐@张瑜 指引的方向，大三，更感谢更多的人让我留在就业，为就业继续付出，时至今日，我在校就业的最后一个大型活动已经圆满结束，从大一到现在，五个大活动，部长的带领，主席的指引，最后才是自己的努力，感谢人很多，在其职，做其事，你自己努力问心无愧最踏实了，2017.12.06最后一个大活动，傍晚哭的稀里哗啦，舍不掉的很多，爱的人也很多，看着一届一届的学弟学妹这么努力倍感自豪，校就业每个人都是最牛逼的的，服务部什么的最牛逼了还有很多没有@到的人，感谢一路来的支持与帮助，剩余的时间，我还会秉承“用心去做事，用行动去为大家服务”（一句话说了三年，但我做到了）的原则，为大家树立最后的榜样 --></p><br>
+       	<div><p><a href="xinqingriji.html"><img id="imgimg" src="img/001.jpg" width="140px"/></a>&nbsp;<a href="xinqingriji.html"><img id="imgimg" src="img/0022.jpg" width="140px"/></a>&nbsp;<a href="xinqingriji.html"><img id="imgimg" src="img/003.jpg" width="140px"/></a></p></div>
+       </div>
+       <br><br>
+       <div class="diary">
+       	<h4 class="biaoti"><a href="xiangce.html" class="contenta">我的相册</a></h4>
+       	<p class="contentp">  2017-9-26 09:55:15</p><br><br>
+       	<p><a href="xiangce.html"><img src="img/007.jpeg" width="140px"/></a>&nbsp;<a href="xiangce.html"><img src="img/008.jpeg" width="140px"/></a>&nbsp;<a href="xiangce.html"><img src="img/009.jpeg" width="140px"/></p><br></a><a href="xiangce.html" class="contenta">查看更多图片</a>
+       </div>
+       <br><br>
+       <div class="diary">
+       	<h4 class="biaoti"><a href="mingyan.html" class="contenta">励志名言</a></h4>
+       	<p class="contentp">  2017-5-16 14:24:56</p><br>
+       	<p>1.真正的才智是刚毅的志向。 —— 拿破仑 <br>
+        2.感情有着极大的鼓舞力量，因此，它是一切道德行为的重要前提，谁要是没有强烈的志向，也就不能够热烈地把这个志向体现于事业中。 —— 凯洛夫<br>
+3.勇敢坚毅真正之才智乃刚毅之志向。 —— 拿破仑<br>
+4.生活赋予我们一种巨大的和无限高贵的礼品，这就是青春：充满着力量，充满着期待志愿，充满着求知和<a href="mingyan.html" class="contenta">查看更多</a>
+<!-- 斗争的志向，充满着希望信心和青春。 —— 奥斯特洛夫斯基<br>
+5.志向不过是记忆的奴隶，生气勃勃地降生，但却很难成长。 —— 莎士比亚<br>
+6.人所缺乏的不是才干而是志向，不是成功的能力而是勤劳的意志。 —— 部尔卫<br>
+7.当教师把每一个学生都理解为他是一个具有个人特点的、具有自己的志向、自己的智慧和性格结构的人的时候，这样的理解才能有助于教师去热爱儿童和尊重儿童。 —— 赞科夫<br> -->
+</p><br>
+       	<p><a href="mingyan.html"><img src="img/004.jpg" width="150px"/></a>&nbsp;<a href="mingyan.html"><img src="img/005.jpg" width="150px"/></a>&nbsp;<a href="mingyan.html"><img src="img/006.jpg" width="150px"/></a></p>
+       </div>
+
+
+
+	</div>
+	<div class="footer">&copy;1997-2018copyright&nbsp;&nbsp;果还套儿&nbsp;版权所有&nbsp;&reg;</div>
+</div>
+<div class="leftbanner">
+	<img src="img/left.gif" alt="">
+</div>
+<div class="rightbanner"><img src="img/right.gif" alt="">
+</div>
+</body>
+<!-- <script type="text/javascript">
+	window.onload=function(){
+	var div1=document.getElementById("div1");
+	function showTime(){
+		var myDate=new Date();
+		div1.innerHTML=myDate.toLocaleString();
+	}
+	showTime();
+	setInterval(showTime,1000);
+}
+</script> -->
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>给我留言</title>
+    <style type="text/css">
+    body{
+        background:url(img/liuyan.jpg);
+
+    }
+    .content{
+        background: #9c9;
+        position: fixed;
+        top: 170px;
+        left: 433px;
+    }
+    .weizhi{
+        position: fixed;
+        top: 50px;
+        left: 50px;
+        font-size: 25px;
+    }
+    .weizhi a{
+        text-decoration: none;
+        padding: 0 5px;
+    }
+    .weizhi a:hover{
+        background: #090;
+        color: #fff;
+    }
+    .right{
+        position: fixed;
+        right:50px;
+        bottom:50px;
+        font-size: 30px;
+    }
+    .right a{
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    .right a:hover{
+        background: #009;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+<div class="weizhi">当前位置：<a href="index.html">首页</a>>留言板</div>
+<div width="500px" class="content">
+	<form name="myform" action="" method="get">
+    <fieldset width="300px">
+    <legend><h2>你好,欢迎给我留言</h2></legend>
+     姓名:
+     <input type="text" name="sr" value="" size="20" maxlength="15">
+     <br>
+<!--      密码:
+     <input type="password" name="pwd" size="30" ><br>
+ -->     单选按钮:
+     <input type="radio" name="sex" value="nan" checked>男
+     <input type="radio" name="sex" value="nv">女<br>
+    喜欢的活动（可多选）:
+     <input type="checkbox" name="kemu" value="yw">购物
+     <input type="checkbox" name="kemu" value="sx">运动
+     <input type="checkbox" name="kemu" value="sw">团建
+     <input type="checkbox" name="kemu" value="lishi">K歌
+      <input type="checkbox" name="kemu" value="qita">其他
+     <br>
+     你喜欢的吃东西（单选）:
+     <select name="city">
+       <option value="hz" selected>曲奇</option>
+       <option value="bj">饼干</option>
+       <option value="sh">巧克力</option>
+       <option value="tj">零食</option>
+       <option value="qita">其他</option>
+
+     </select>
+
+      <br>
+     留言板:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <textarea name="wb" cols="50" rows="10"></textarea>
+     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="submit" name="sub" value="提交留言">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="reset" name="se" value="重新编辑">
+     </fieldset>
+	</form>
+    </div>
+    <div class="right"><a href="lianxifangshi.html">我的联系方式</a></div>
+</body>
+</html>
